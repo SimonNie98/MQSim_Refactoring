@@ -47,7 +47,7 @@ else
 	exit 1
 fi
 
-if grep -Fq '256' log.txt; then
+if grep -Fq '257' log.txt; then
 	echo "256 found"
 else
 	echo "256 NOT found"
